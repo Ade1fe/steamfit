@@ -346,7 +346,7 @@ span{
     display: flex;
     justify-content: space-evenly;
     /* padding-left: 5%; */
-    border: #ddd 1px solid;
+    /* border: #ddd 1px solid; */
     margin-top: 8rem;
     height: 25rem;
     align-items: center;
@@ -964,6 +964,57 @@ button:hover{
   
 
 @media (max-width:550px) {
+
+    .btn1, .btn2{
+        display: none;
+        /* float: none; */
+    }
+    .bmi{
+        width: 100%;
+        display: grid;
+        height: 30rem;
+        margin-bottom: 2rem ;
+    }
+   .bmi .left,.right{
+        width: 100%;
+    }
+    
+}
+@media (max-width:490px) {
+
+    .btn1, .btn2{
+        display: none;
+        /* float: none; */
+    }
+    .bmi{
+        width: 100%;
+        display: grid;
+        height: 40rem;
+        margin-bottom: 2rem ;
+    }
+   .bmi .left,.right{
+        width: 100%;
+    }
+    
+}
+@media (max-width:427px) {
+
+    .btn1, .btn2{
+        display: none;
+        /* float: none; */
+    }
+    .bmi{
+        width: 100%;
+        display: grid;
+        height: 30rem;
+        margin-bottom: 2rem ;
+    }
+   .bmi .left,.right{
+        width: 100%;
+    }
+    
+}
+@media (max-width:420px) {
 
     .btn1, .btn2{
         display: none;
